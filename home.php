@@ -51,7 +51,7 @@ if(isset($_GET['logout'])){
      
        <!---- <a href="update_profile.php" class="btn">update profile</a>-->
        <a href="home.php?logout=<?php echo $user_id; ?>" class="delete-btn">Deconnexion</a>
-      <p> <a href="qrcode_google/index.php">QR CODE</a> ou <a href="Qr.php">Partagez</a></p>
+      <p> <a href="qr.php">QR CODE</a> <!---- ou <a href="Qr.php">Partagez</a></p>-->
       </div>
 				
 				
